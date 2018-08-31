@@ -1,0 +1,23 @@
+{
+  "name": "sample-private-npm-github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitor-tadashi/sample-private-npm-github.git"
+  },
+  "author": "Vitor Tadashi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitor-tadashi/sample-private-npm-github/issues"
+  },
+  "homepage": "https://github.com/vitor-tadashi/sample-private-npm-github#readme",
+  "dependencies": {
+    "eslint-config-yara": "git+ssh://git@github.com:yaradigitallabs /eslint-config-yara.git"
+  }
+}
